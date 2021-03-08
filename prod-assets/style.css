@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* Od średnich w górę */
+/* Od dużych w górę */
+/* Przykład zastosowania
+h1 {
+    color: red;
+    @include medium-up {
+        color: blue;
+    }
+}
+*/
+body {
+  background-color: #fff;
+  color: #444;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0; }
+
+p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 10px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0; }
+
+a {
+  color: #444;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+  ul li {
+    font-size: 0.875rem; }
+
+img {
+  max-width: 100%; }
