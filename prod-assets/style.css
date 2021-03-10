@@ -9,6 +9,11 @@ h1 {
     }
 }
 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
 body {
   background-color: #fff;
   color: #444;
@@ -61,3 +66,21 @@ img {
   @media (min-width: 1200px) {
     .o-container {
       max-width: 1140px; } }
+
+.o-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: -15px;
+  margin-right: -15px; }
+  @media (min-width: 800px) {
+    .o-row {
+      flex-direction: row; } }
+
+.o-col {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 800px) {
+    .o-col--md50 {
+      flex: 0 0 50%; } }
