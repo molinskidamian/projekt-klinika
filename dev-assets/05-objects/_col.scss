@@ -3,9 +3,45 @@
   padding-left: $gutter; // Odstęp między kolumnami
   padding-right: $gutter; // Odstęp między kolumnami
 
+  &--md25 {
+    @include medium-up {
+      flex: 0 0 25%;
+      max-width: 25%; // dla IE 10, 11
+    }
+  }
+
+  &--md33 {
+    @include medium-up {
+      flex: 0 0 33.3333%;
+      max-width: 33.3333%; // dla IE 10, 11
+    }
+  }
+
   &--md50 {
     @include medium-up {
       flex: 0 0 50%;
+      max-width: 50%; // dla IE 10, 11
+    }
+  }
+
+  &--lg25 {
+    @include large-up {
+      flex: 0 0 25%;
+      max-width: 25%; // dla IE 10, 11
+    }
+  }
+
+  &--lg33 {
+    @include large-up {
+      flex: 0 0 33.3333%;
+      max-width: 33.3333%; // dla IE 10, 11
+    }
+  }
+
+  &--lg50 {
+    @include large-up {
+      flex: 0 0 50%;
+      max-width: 50%; // dla IE 10, 11
     }
   }
 
