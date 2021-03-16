@@ -9,9 +9,20 @@
   text-align: center;
   text-transform: uppercase;
   width: $grid-base * 22;
+  // color: red;
 
   &:hover {
     text-decoration: none;
+  }
+
+  &--primary {
+    background-color: $blue-light;
+    color: $blue-text;
+
+    &:hover {
+      background-color: darken($blue-light, 15%);
+      color: $white;
+    }
   }
 
 }

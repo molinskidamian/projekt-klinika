@@ -105,3 +105,23 @@ img {
     .o-col--lg50 {
       flex: 0 0 50%;
       max-width: 50%; } }
+
+.c-btn {
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: .75rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 220px; }
+  .c-btn:hover {
+    text-decoration: none; }
+  .c-btn--primary {
+    background-color: #d3eafa;
+    color: #3b99e1; }
+    .c-btn--primary:hover {
+      background-color: #8ec9f2;
+      color: #fff; }

@@ -168,4 +168,22 @@ img {
     max-width: 50%;
   }
 }
+
+.c-btn {
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: .75rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 220px;
+  color: red;
+}
+
+.c-btn:hover {
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
