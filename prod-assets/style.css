@@ -116,6 +116,7 @@ img {
   padding: .75rem 0;
   text-align: center;
   text-transform: uppercase;
+  transition: all .25s ease-in-out;
   width: 220px; }
   .c-btn:hover {
     text-decoration: none; }
@@ -125,3 +126,28 @@ img {
     .c-btn--primary:hover {
       background-color: #8ec9f2;
       color: #fff; }
+  .c-btn--accent {
+    background-color: #60dc64;
+    color: #fff; }
+    .c-btn--accent:hover {
+      background-color: #2bc430;
+      color: #fff; }
+  .c-btn--dark-blue {
+    background-color: #3e5cc5;
+    color: #fff; }
+    .c-btn--dark-blue:hover {
+      background-color: #2a408c;
+      color: #fff; }
+  .c-btn--light {
+    background-color: #fff;
+    color: #3b99e1; }
+    .c-btn--light:hover {
+      background-color: #d9d9d9;
+      color: #3b99e1; }
+  .c-btn--outline {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff; }
+    .c-btn--outline:hover {
+      color: #d9d9d9;
+      border: 2px solid #d9d9d9; }
