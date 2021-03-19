@@ -193,3 +193,16 @@ img {
       display: inline-block;
       margin-left: 20px, 5;
       width: auto; } }
+
+.c-icon-box {
+  text-align: center; }
+  .c-icon-box__image {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin-bottom: 25px; }
+  .c-icon-box__icon {
+    align-self: center; }
+  .c-icon-box__text {
+    font-size: 0.75rem;
+    margin-top: 15px; }
