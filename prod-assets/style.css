@@ -219,3 +219,31 @@ img {
 
 .c-list--unstyled {
   list-style-type: none; }
+
+.u-mb-1 {
+  margin-bottom: 10px; }
+
+.u-mb-2 {
+  margin-bottom: 20px; }
+
+.u-mb-3 {
+  margin-bottom: 30px; }
+
+.u-text-center {
+  text-align: center; }
+
+.u-text-right {
+  text-align: right; }
+
+@media (min-width: 1200px) {
+  .u-text-lg-right {
+    text-align: right !important; } }
+
+.u-bg-white {
+  background-color: #fff; }
+
+.u-bg-light {
+  background-color: #f9fbfe; }
+
+.u-bg-white {
+  color: #fff; }
