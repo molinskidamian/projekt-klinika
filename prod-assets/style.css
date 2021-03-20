@@ -206,3 +206,10 @@ img {
   .c-icon-box__text {
     font-size: 0.75rem;
     margin-top: 15px; }
+
+.c-label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase; }
