@@ -105,6 +105,10 @@ img {
     .o-col--lg50 {
       flex: 0 0 50%;
       max-width: 50%; } }
+  @media (min-width: 1200px) {
+    .o-col--lg75 {
+      flex: 0 0 75%;
+      max-width: 75%; } }
 
 .c-btn {
   border: none;

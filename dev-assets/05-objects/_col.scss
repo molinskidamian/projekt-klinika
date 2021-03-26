@@ -45,4 +45,11 @@
     }
   }
 
+  &--lg75 {
+    @include large-up {
+      flex: 0 0 75%;
+      max-width: 75%; // dla IE 10, 11
+    }
+  }
+
 }
